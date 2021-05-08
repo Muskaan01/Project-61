@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    background-color: plum;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 45px;
+    font-weight: 200;
+    text-shadow: 2px 2px #F8BBDO;
+}
+
+h2 {
+    font-family: cinzel;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 23px;
+    font-family: bookman old style;
+}
+
+hr {
+    height: 10px;
+    background-color: black;
+}
+
+.menu {
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+    list-style: none;
+    left: 0px;
+    right: 20px;
+}
+
+
+.links {
+    color: deeppink;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 30px;
+    display: inline;
+    text-decoration: none;
+}
+
+.links:hover {
+    background-color:lightblue;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+
+#about {
+    background-color: cyan;
+    z-index: 10;
+}
+
+#hobby {
+    background-color: springgreen;
+}
+
+#pic1 {
+    border-radius: 50%;
+    height: 200px;
+    width: 140px;
+}
+
+#pic2 {
+    border-radius: 50%;
+    height: 200px;
+    width: 300px;
+}
+
+#pic3 {
+    border-radius: 40%;
+    height: 200px;
+    width: 425px;
+}
+
+
+h3 {
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#inspire {
+    background-color: yellow;
+}
+
+.hp {
+    font-size: 20px;
+}
+
+.button {
+    height: 40px;
+    width: 600px;
+    background-color: pink;
+    color: back;
+}
+
+#books {
+    background-color: aquamarine;   
+}
+
+.parallax.inner {
+    display:table-cell;
+    position:relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#contact {
+    background-color: hotpink;
+}
+
+html {
+    scroll-behavior: smooth;
+}
